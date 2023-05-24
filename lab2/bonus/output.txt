@@ -1,0 +1,12 @@
+
+input X : 23.0
+input Y : 45.0
+X + Y = 68.0
+
+input X : 56.0
+input Y : 22.0
+X + Y = 78.0
+
+input X : 0.0
+input Y : 0.0
+X + Y = 0.0

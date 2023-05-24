@@ -72,7 +72,8 @@ public class Student {
 
     /**
         Add a quiz score.
-        @param quiz The quiz score to add.
+        @param maxGrade The max grade of the quiz.
+        @param studentGrade What the student achieved in the quiz.
      */
     public void addQuiz(double maxGrade, double studentGrade) {
         this.quizzes.add(new Quiz(maxGrade, studentGrade));

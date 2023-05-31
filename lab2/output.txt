@@ -9,9 +9,9 @@ Course directory commands:
 7. quit 
 select option: 1
 Add a new Student: 
-student's name: gary
-student's surname: zagreb
-student added: gary, zagreb (gzagr01, 10000001)
+student's name: Matthew
+student's surname: Huang
+student added: Matthew, Huang (mhuan01, 10000001)
 
 Course directory commands:
 1. add a new Student
@@ -23,9 +23,9 @@ Course directory commands:
 7. quit 
 select option: 1
 Add a new Student: 
-student's name: Mark
-student's surname: Zacharias
-student added: Mark, Zacharias (mzach02, 10000002)
+student's name: David
+student's surname: Wong
+student added: David, Wong (dwong02, 10000002)
 
 Course directory commands:
 1. add a new Student
@@ -37,9 +37,9 @@ Course directory commands:
 7. quit 
 select option: 1
 Add a new Student: 
-student's name: leon
-student's surname: bard
-student added: leon, bard (lbard03, 10000003)
+student's name: Tim
+student's surname: Bob
+student added: Tim, Bob (tbob03, 10000003)
 
 Course directory commands:
 1. add a new Student
@@ -51,9 +51,9 @@ Course directory commands:
 7. quit 
 select option: 1
 Add a new Student: 
-student's name: peter
-student's surname: backer
-student added: peter, backer (pback04, 10000004)
+student's name: Sponge
+student's surname: Bob
+student added: Sponge, Bob (sbob04, 10000004)
 
 Course directory commands:
 1. add a new Student
@@ -79,7 +79,7 @@ Course directory commands:
 select option: 2
 Find student:
 student's number(id): 10000002
-Mark, Zacharias (mzach02, 10000002)
+David, Wong (dwong02, 10000002)
 
 Course directory commands:
 1. add a new Student
@@ -191,7 +191,7 @@ Course directory commands:
 6. get course average 
 7. quit 
 select option: 5
-The top student is [gary, zagreb, 10000001, gzagr01]
+The top student is [Matthew, Huang, 10000001, mhuan01]
 
 Course directory commands:
 1. add a new Student
@@ -215,4 +215,4 @@ Course directory commands:
 select option: 7
 Quitting
 ------------
-Course@34a245ab
+Course@4b67cf4d

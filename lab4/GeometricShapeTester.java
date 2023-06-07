@@ -80,6 +80,12 @@ public class GeometricShapeTester{
 
 		return average;
 	}
+
+	/**
+	 * Get the shape with the largest area in the shapes array.
+	 *
+	 * @return the largest shape in the array or null if there are no shapes	
+	 */
 	public GeometricShape getMax(){
 		if (shapes.length == 0) {
 			return null;
@@ -95,6 +101,10 @@ public class GeometricShapeTester{
 
 		return min;
 	}
+
+	/**
+	 * Sort the array of shapes in-place using selection sort	
+	 */
 	public void sort(){
 		for (int i = 0; i < shapes.length; i++) {
 			int smallest_i = -1;

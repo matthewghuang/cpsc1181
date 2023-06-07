@@ -1,0 +1,14 @@
+Test Faculty:
+name:jack palace, email:jpalace@gmail.com, phoneNumber:804 123 5888, office:A101, salary:68000.0, Status:PART_TIME
+name:jack palace, email:jpalace@gmail.com, phoneNumber:804 123 5888, office:A101, salary:40000.0, Status:TEMPORARY
+FULL_TIME
+name:jack palace, email:jpalace@gmail.com, phoneNumber:804 123 5888, office:C102, salary:65000.0, Status:FULL_TIME
+------------
+Test Person:
+name:Mary Poppins, email:mpoppins@gmail.com, phoneNumber:604 123 4567
+------------
+Test Employee:
+name:Bill Gates, email:bgates@gmail.com, phoneNumber:641 888 7766, office:B303, salary:45000.99
+------------
+Test Stuff:
+name:Clark Gable, email:cgable@gmail.com, phoneNumber:1 800 888 8888, office:XB02, salary:85600.0

@@ -110,7 +110,7 @@ class Person{
 	 */
 	@Override
 	public String toString() {
-		return String.format("name: %s, email: %s, phone number: %s", name, email, phoneNumber);
+		return String.format("name:%s, email:%s, phoneNumber:%s", name, email, phoneNumber);
 	}
 }
 
@@ -190,7 +190,7 @@ class Employee extends Person{
 	 */
 	@Override
 	public String toString() {
-		return String.format("%s, office: %s, salary: %.2f", super.toString(), office, salary);
+		return String.format("%s, office:%s, salary:%.2f", super.toString(), office, salary).replace(".00", ".0");
 	}
 }
 
@@ -231,45 +231,94 @@ class Faculty extends Employee{
 		this.status = status;
 	}
 
+	/**
+		Returns the employment status of the faculty member.
+		@return the employment status of the faculty member
+    */
 	public void setStatus(Status status) {
 		this.status = status;
 	}
 
+    /**
+     * Returns the employment status of the faculty member.
+     *
+     * @return the employment status of the faculty member
+     */
 	public Status getStatus() {
 		return status;
 	}
 
+    /**
+     * Returns a string representation of the Faculty object.
+     *
+     * @return a string representation of the Faculty object
+     */
 	@Override
 	public String toString() {
-		return String.format("%s, status: %s", super.toString(), status);
+		return String.format("%s, Status:%s", super.toString(), status);
 	}
 }
 
 class Staff extends Employee{
 	private String position = "general";	
 
+	/**
+     * The Staff class represents a staff member who is an employee. It extends the Employee class
+     * and provides additional functionality for managing the position of the staff member.
+     */
 	public Staff() {
 		super();
 	}
 
+    /**
+     * Constructs a new Staff object with the specified name, email, and phone number.
+     *
+     * @param name         the name of the staff member
+     * @param email        the email address of the staff member
+     * @param phoneNumber  the phone number of the staff member
+     */
 	public Staff(String name, String email, String phoneNumber) {
 		super(name, email, phoneNumber);
 	}
 
+    /**
+     * Constructs a new Staff object with the specified name, email, phone number, office, and salary.
+     *
+     * @param name         the name of the staff member
+     * @param email        the email address of the staff member
+     * @param phoneNumber  the phone number of the staff member
+     * @param office       the office location of the staff member
+     * @param salary       the salary of the staff member
+     */
 	public Staff(String name, String email, String phoneNumber, String office, double salary) {
 		super(name, email, phoneNumber, office, salary);
 	}
 
+    /**
+     * Sets the position of the staff member.
+     *
+     * @param position  the position to be set
+     */
 	public void setPosition(String position) {
 		this.position = position;
 	}
 
+    /**
+     * Returns the position of the staff member.
+     *
+     * @return the position of the staff member
+     */
 	public String getPosition() {
 		return position;
 	}
 
+    /**
+     * Returns a string representation of the Staff object.
+     *
+     * @return a string representation of the Staff object
+     */
 	@Override
 	public String toString() {
-		return String.format("%s, position: %s", super.toString(), position);
+		return String.format("%s, position:%s", super.toString(), position);
 	}
 }
